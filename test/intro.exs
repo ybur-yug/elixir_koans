@@ -1,10 +1,7 @@
 defmodule ElixirKoansTest do
   use ExUnit.Case
 
-  IO.puts "Our Journey Begins in test/elixir_koans_test.exs"
-
-  test "When dealing with numbers" do 
-    IO.puts "Numbers in Elixir will feel quite familiar"
+  test "Numbers in Elixir will feel quite familiar" do 
     assert "__" + 1 == 2
   end
 
