@@ -5,7 +5,7 @@ defmodule ElixirKoansTest do
 
   test "When dealing with numbers" do 
     IO.puts "Numbers in Elixir will feel quite familiar"
-    assert "" + 1 == 2
+    assert "__" + 1 == 2
   end
 
   test "Comparing numbers" do
@@ -15,17 +15,17 @@ defmodule ElixirKoansTest do
     d = true
     IO.puts "Comparisons in Elixir are the norm"
     IO.puts "Be sure to grok the `===` operator"
-    assert (a ==  b) == ""
-    assert (a === b) == ""
-    assert (a ==  c) == ""
-    assert (a === c) == ""
-    assert (a ==  d) == ""
-    assert (a === d) == ""
+    assert (a ==  b) == "__"
+    assert (a === b) == "__"
+    assert (a ==  c) == "__"
+    assert (a === c) == "__"
+    assert (a ==  d) == "__"
+    assert (a === d) == "__"
   end
 
   test "Dividing Numbers" do
     IO.puts "Division in Elixir always returns floats"
-    assert (is_float(1/2)) == ""
+    assert (is_float(1/2)) == "__"
   end
 
   test "Atoms and Strings" do
@@ -34,12 +34,12 @@ defmodule ElixirKoansTest do
     string = "this"
     IO.puts atom
     IO.puts string
-    assert (atom == string) == ""
+    assert (atom == string) == "__"
   end
 
   test "Anonymous Functions" do
     diff = fn a, b -> a - b end
     IO.puts diff.(3, 2)
-    assert "" == diff.(3, 5)
+    assert "__" == diff.(3, 5)
   end
 end
