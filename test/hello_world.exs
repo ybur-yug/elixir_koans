@@ -7,3 +7,5 @@ defmodule ElixirKoansTest do
   end
 end
 
+IO.puts "run `mix test test/intro.exs` to continue"
+

@@ -4,7 +4,6 @@ defmodule ElixirKoansTest do
   test "When dealing with lists" do
     thing = [1, 2]
     stuff = [3, 4]
-
     assert (thing ++ stuff) == "__"
     assert (stuff -- [4]) == "__"
   end
@@ -24,6 +23,7 @@ defmodule ElixirKoansTest do
     thing = {'cat', 'dog'}
     assert (put_elem(thing, 0, 'mutated')) == "__"
   end
-
-
 end
+
+IO.puts "more coming soon...
+
