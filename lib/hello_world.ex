@@ -1,4 +1,4 @@
-defmodule ElixirKoans do
+defmodule HelloWorld do
   def hello_world do
     IO.puts "hello world"
     IO.puts "welcome to the Elixir koans"
@@ -8,5 +8,5 @@ defmodule ElixirKoans do
   end
 end
 
-ElixirKoans.hello_world
+HelloWorld.hello_world
 
